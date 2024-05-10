@@ -1,0 +1,41 @@
+/*mates-gonzalez titulo index*/
+.titulo-principal{
+    color: rgb(10, 106, 10);
+    font-size: 50px;
+    font-family: "Bungee Outline", sans-serif;
+    font-weight: 5000;
+    font-style: normal;
+  }
+
+
+/*navbar*/
+
+.header-index{
+    background-color: rgb(218, 169, 97);
+}
+
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+nav{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+
+}
+.navindex{
+    padding: 10px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.logomate {
+    width: 100px;
+}
