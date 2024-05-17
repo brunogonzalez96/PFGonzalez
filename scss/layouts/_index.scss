@@ -41,84 +41,21 @@ height: 150px;
     font-size: 30px;
 }
 
+.h3{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
 
 .box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    .box-pagina-principal1{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        
-        h3{
-            text-align: center;
-            color: rgb(233, 233, 233);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 30px;
-        }
-        
-      }
-    
-      box-pagina-principal2{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        
-        
-      }
-    
-      box-pagina-principal3{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        
-        
-      }
-    
-      box-pagina-principal4{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        
-        
-      }
-    
-      box-pagina-principal5{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        
-        
-      }
-    
-      box-pagina-principal6{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        
-      }
+.box-pagina-principal{
+  @include box-pagina-principal ($direction: row, $align: center, $justify: center, $items: center,$padding: 20px);
+    }
 }
-
-
   
 /*botones*/
 .boton{
@@ -128,8 +65,6 @@ height: 150px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     letter-spacing: 5px;
-    
-    
 }
 
 .todos{
@@ -157,8 +92,6 @@ height: 150px;
     border-radius: 0%;
 
 }
-
-
 
 .matemadera{
     display: block;
@@ -207,3 +140,18 @@ height: 150px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+a{
+    text-decoration: none !important;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+
+.contact{
+    text-align: center;
+    width: 100%;
+}
+ 

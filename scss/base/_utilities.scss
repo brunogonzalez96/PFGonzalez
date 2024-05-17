@@ -1,0 +1,18 @@
+@mixin box-pagina-principal ($direction, $align, $justify, $items, $padding) {
+display: flex;
+flex-direction: $direction;
+text-align: $align;
+justify-content: $justify;
+align-items: $items;
+padding: $padding;
+}
+
+@mixin producto($direction, $align, $justify, $items, $padding) {
+    display: flex;
+flex-direction: $direction;
+text-align: $align;
+justify-content: $justify;
+align-items: $items;
+padding: $padding;
+
+}
